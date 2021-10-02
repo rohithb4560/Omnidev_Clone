@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { FaFire, FaCheck, FaUtensilSpoon, FaStar } from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -235,48 +236,464 @@ const Header = () => {
             alt=""
           />
         </div>
-        <div style={{ marginTop: '15vh', marginLeft: '10vw', lineHeight: '0.2', }}>
+        <div
+          style={{ marginTop: '15vh', marginLeft: '10vw', lineHeight: '0.2' }}
+        >
           <h4 style={{ color: 'orange' }}>HOW IT WORKS</h4>
-          <h1 style={{fontWeight:'1000',fontSize:'50px'}}>Your daily dose of health in 3 simple steps</h1>
+          <h1 style={{ fontWeight: '1000', fontSize: '50px' }}>
+            Your daily dose of health in 3 simple steps
+          </h1>
         </div>
-        <div style={{marginTop:'2vh'}}>
-          <h1 style={{color:'silver',fontWeight:'1000',fontSize:'100px',marginTop:'26vh',marginLeft:'10vw'}}>01</h1>
-          <h1 style={{fontWeight:'1000',fontSize:'34px',marginTop:'-9vh',marginLeft:'10vw'}}>Tell us what you like (and what not)</h1>
-          <div style={{marginTop:'2vh',marginLeft:'10vw',fontWeight:'100',fontSize:"17px"}} >
-          <p>Never again waste time thinking about what to eat! Omnifood AI  </p>
-          <p> will create a 100% personalized weekly meal plan just for you. It </p> <p> makes sure you get all the nutrients and vitamins you need, no matter </p> <p> what diet you follow!</p>
-        </div>
-        <div>
-          <img style={{height:'50vh',marginTop:'-50vh',marginLeft:'60vw'}} src="https://omnifood.dev/img/app/app-screen-1.png" alt=""/>
-
-        </div>
+        <div style={{ marginTop: '2vh' }}>
+          <h1
+            style={{
+              color: 'silver',
+              fontWeight: '1000',
+              fontSize: '100px',
+              marginTop: '26vh',
+              marginLeft: '10vw',
+            }}
+          >
+            01
+          </h1>
+          <h1
+            style={{
+              fontWeight: '1000',
+              fontSize: '34px',
+              marginTop: '-9vh',
+              marginLeft: '10vw',
+            }}
+          >
+            Tell us what you like (and what not)
+          </h1>
+          <div
+            style={{
+              marginTop: '2vh',
+              marginLeft: '10vw',
+              fontWeight: '100',
+              fontSize: '17px',
+            }}
+          >
+            <p>
+              Never again waste time thinking about what to eat! Omnifood AI{' '}
+            </p>
+            <p>
+              {' '}
+              will create a 100% personalized weekly meal plan just for you. It{' '}
+            </p>{' '}
+            <p>
+              {' '}
+              makes sure you get all the nutrients and vitamins you need, no
+              matter{' '}
+            </p>{' '}
+            <p> what diet you follow!</p>
+          </div>
+          <div>
+            <img
+              style={{ height: '50vh', marginTop: '-50vh', marginLeft: '60vw' }}
+              src="https://omnifood.dev/img/app/app-screen-1.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
       <div>
-
-        <img style={{height:'50vh',marginTop:'-10vh',marginLeft:'20vw'}} src="https://omnifood.dev/img/app/app-screen-2.png" alt=""/>
-        <h1 style={{color:'silver',fontWeight:'1000',fontSize:'100px',marginTop:'-45vh',marginLeft:'50vw'}}>02</h1>
-        <h1 style={{fontWeight:'1000',fontSize:'34px',marginTop:'-9vh',marginLeft:'50vw'}}>Approve your weekly meal plan</h1>
-        <div style={{marginTop:'2vh',marginLeft:'50vw',fontWeight:'100',fontSize:"17px"}}>
+        <img
+          style={{ height: '50vh', marginTop: '-10vh', marginLeft: '20vw' }}
+          src="https://omnifood.dev/img/app/app-screen-2.png"
+          alt=""
+        />
+        <h1
+          style={{
+            color: 'silver',
+            fontWeight: '1000',
+            fontSize: '100px',
+            marginTop: '-45vh',
+            marginLeft: '50vw',
+          }}
+        >
+          02
+        </h1>
+        <h1
+          style={{
+            fontWeight: '1000',
+            fontSize: '34px',
+            marginTop: '-9vh',
+            marginLeft: '50vw',
+          }}
+        >
+          Approve your weekly meal plan
+        </h1>
+        <div
+          style={{
+            marginTop: '2vh',
+            marginLeft: '50vw',
+            fontWeight: '100',
+            fontSize: '17px',
+          }}
+        >
           <p>Once per week, approve the meal plan generated for you by</p>
           <p>Omnifood AI. You can change ingredients, swap entire meals, or</p>
           <p>even add your own recipes.</p>
-
         </div>
       </div>
-      <div style={{marginTop:'2vh'}}>
-      <h1 style={{color:'silver',fontWeight:'1000',fontSize:'100px',marginTop:'26vh',marginLeft:'10vw'}}>03</h1>
-      <h1 style={{fontWeight:'1000',fontSize:'34px',marginTop:'-9vh',marginLeft:'10vw'}}>Receive meals at convenient time</h1>
-      <div style={{marginTop:'2vh',marginLeft:'10vw',fontWeight:'100',fontSize:"17px"}} >
-        <p>Best chefs in town will cook your selected meal every day, and</p>
-        <p>we will deliver it to your door whenever works best for you. You</p>
-        <p>can change delivery schedule and address daily!</p>
-        <img style={{height:'50vh',marginTop:'-50vh',marginLeft:'60vw'}} src="https://omnifood.dev/img/app/app-screen-3.png" alt=""/>
+      <div style={{ marginTop: '2vh' }}>
+        <h1
+          style={{
+            color: 'silver',
+            fontWeight: '1000',
+            fontSize: '100px',
+            marginTop: '26vh',
+            marginLeft: '10vw',
+          }}
+        >
+          03
+        </h1>
+        <h1
+          style={{
+            fontWeight: '1000',
+            fontSize: '34px',
+            marginTop: '-9vh',
+            marginLeft: '10vw',
+          }}
+        >
+          Receive meals at convenient time
+        </h1>
+        <div
+          style={{
+            marginTop: '2vh',
+            marginLeft: '10vw',
+            fontWeight: '100',
+            fontSize: '17px',
+          }}
+        >
+          <p>Best chefs in town will cook your selected meal every day, and</p>
+          <p>
+            we will deliver it to your door whenever works best for you. You
+          </p>
+          <p>can change delivery schedule and address daily!</p>
+          <img
+            style={{ height: '50vh', marginTop: '-50vh', marginLeft: '60vw' }}
+            src="https://omnifood.dev/img/app/app-screen-3.png"
+            alt=""
+          />
+        </div>
 
+        <div style={{ marginTop: '19vh' }}>
+          <h3 style={{ textAlign: 'center', color: 'orange' }}>MEALS</h3>
+          <h1
+            style={{
+              fontWeight: '1000',
+              fontSize: '40px',
+              marginTop: '-2vh',
+              marginLeft: '25vw',
+            }}
+          >
+            Omnifood AI chooses from 5,000+ recipes
+          </h1>
+        </div>
+        <div
+          style={{
+            boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+            width: '23vw',
+            height: '70vh',
+            borderRadius: '10px',
+            marginTop: '12vh',
+            marginLeft: '13vw',
+          }}
+        >
+          <img
+            style={{
+              borderRadius: '5px 5px 0 0',
+              width: '23vw',
+              height: '35vh',
+            }}
+            src="https://omnifood.dev/img/meals/meal-1.jpg"
+            alt=""
+          />
+          <button
+            style={{
+              backgroundColor: '#51cf66',
+              marginLeft: '3vw',
+              marginTop: '2vh',
+              borderRadius: '10px',
+              fontWeight: '1000',
+            }}
+          >
+            VEGETARAIAN
+          </button>
+          <h1 style={{ marginLeft: '3vw', marginTop: '-0.2vh' }}>
+            Japanese Gyozas
+          </h1>
+          <div
+            style={{ display: 'flex', marginLeft: '3vw', marginTop: '-1vh' }}
+          >
+            <h3 style={{ color: 'orange', marginRight: '1vw' }}>
+              <FaFire />
+            </h3>
+            <h3>650 calories</h3>
+          </div>
+          <div
+            style={{ display: 'flex', marginLeft: '3vw', marginTop: '-1vh' }}
+          >
+            <h3 style={{ color: 'orange', marginRight: '1vw' }}>
+              <FaUtensilSpoon />
+            </h3>
+            <h3>NutriScore ® 74</h3>
+          </div>
+          <div
+            style={{ display: 'flex', marginLeft: '3vw', marginTop: '-1vh' }}
+          >
+            <h3 style={{ color: 'orange', marginRight: '1vw' }}>
+              <FaStar />
+            </h3>
+            <h3>4.9 rating (537)</h3>
+          </div>
+        </div>
+        <div
+          style={{
+            boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+            width: '23vw',
+            height: '70vh',
+            borderRadius: '10px',
+            marginTop: '-70vh',
+            marginLeft: '40vw',
+          }}
+        >
+          <img
+            style={{
+              borderRadius: '5px 5px 0 0',
+              width: '23vw',
+              height: '35vh',
+            }}
+            src="https://omnifood.dev/img/meals/meal-2.jpg"
+            alt=""
+          />
+          <button
+            style={{
+              backgroundColor: '#94d82d',
+              marginLeft: '3vw',
+              marginTop: '2vh',
+              borderRadius: '10px',
+              fontWeight: '1000',
+            }}
+          >
+            VEGAN
+          </button>
+          <button
+            style={{
+              backgroundColor: '#ffd43b',
+              marginLeft: '1vw',
+              marginTop: '2vh',
+              borderRadius: '10px',
+              fontWeight: '1000',
+            }}
+          >
+            PALEO
+          </button>
+
+          <h1 style={{ marginLeft: '3vw', marginTop: '-0.2vh' }}>
+            Avocado Salad
+          </h1>
+          <div
+            style={{ display: 'flex', marginLeft: '3vw', marginTop: '-1vh' }}
+          >
+            <h3 style={{ color: 'orange', marginRight: '1vw' }}>
+              <FaFire />
+            </h3>
+            <h3>400 calories</h3>
+          </div>
+          <div
+            style={{ display: 'flex', marginLeft: '3vw', marginTop: '-1vh' }}
+          >
+            <h3 style={{ color: 'orange', marginRight: '1vw' }}>
+              <FaUtensilSpoon />
+            </h3>
+            <h3>NutriScore ® 92</h3>
+          </div>
+          <div
+            style={{ display: 'flex', marginLeft: '3vw', marginTop: '-1vh' }}
+          >
+            <h3 style={{ color: 'orange', marginRight: '1vw' }}>
+              <FaStar />
+            </h3>
+            <h3>4.8 rating (441)</h3>
+          </div>
+        </div>
+        <div
+          style={{
+            height: '70vh',
+            borderRadius: '10px',
+            marginTop: '-72vh',
+            marginLeft: '70vw',
+          }}
+        >
+          <h1>Works with any diet:</h1>
+          <div style={{ display: 'flex', fontSize: '24px', fontWeight: '100' }}>
+            <h3
+              style={{
+                color: 'orange',
+                marginRight: '2vw',
+                marginTop: '1.3vh',
+              }}
+            >
+              <FaCheck />
+            </h3>
+            <p style={{ marginTop: '1.3vh' }}>Vegetarian</p>
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              fontSize: '24px',
+              fontWeight: '100',
+            }}
+          >
+            <h3
+              style={{
+                color: 'orange',
+                marginRight: '2vw',
+                marginTop: '-1.5vh',
+              }}
+            >
+              <FaCheck />
+            </h3>
+            <p style={{ marginTop: '-1.5vh' }}>Vegan</p>
+          </div>
+          <div style={{ display: 'flex', fontSize: '24px', fontWeight: '100' }}>
+            <h3
+              style={{
+                color: 'orange',
+                marginRight: '2vw',
+                marginTop: '-2vh',
+              }}
+            >
+              <FaCheck />
+            </h3>
+            <p style={{ marginTop: '-2vh' }}>Pescatarian</p>
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              fontSize: '24px',
+              fontWeight: '100',
+            }}
+          >
+            <h3
+              style={{
+                color: 'orange',
+                marginRight: '2vw',
+                marginTop: '-2vh',
+              }}
+            >
+              <FaCheck />
+            </h3>
+            <p style={{ marginTop: '-2vh' }}>Gluten-free</p>
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              fontSize: '24px',
+              fontWeight: '100',
+            }}
+          >
+            <h3
+              style={{
+                color: 'orange',
+                marginRight: '2vw',
+                marginTop: '-1.5vh',
+              }}
+            >
+              <FaCheck />
+            </h3>
+            <p style={{ marginTop: '-1.5vh' }}>Lactose-free</p>
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              fontSize: '24px',
+              fontWeight: '100',
+            }}
+          >
+            <h3
+              style={{
+                color: 'orange',
+                marginRight: '2vw',
+                marginTop: '-2vh',
+              }}
+            >
+              <FaCheck />
+            </h3>
+            <p style={{ marginTop: '-2vh' }}>Keto</p>
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              fontSize: '24px',
+              fontWeight: '100',
+            }}
+          >
+            <h3
+              style={{
+                color: 'orange',
+                marginRight: '2vw',
+                marginTop: '-2vh',
+              }}
+            >
+              <FaCheck />
+            </h3>
+            <p style={{ marginTop: '-2vh' }}>Paleo</p>
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              fontSize: '24px',
+              fontWeight: '100',
+            }}
+          >
+            <h3
+              style={{
+                color: 'orange',
+                marginRight: '2vw',
+                marginTop: '-2vh',
+              }}
+            >
+              <FaCheck />
+            </h3>
+            <p style={{ marginTop: '-2vh' }}>Low FODMAP</p>
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              fontSize: '24px',
+              fontWeight: '100',
+            }}
+          >
+            <h3
+              style={{
+                color: 'orange',
+                marginRight: '2vw',
+                marginTop: '-2vh',
+              }}
+            >
+              <FaCheck />
+            </h3>
+            <p style={{ marginTop: '-2vh' }}>Kid-friendly</p>
+          </div>
+        </div>
+
+        <h3
+          style={{
+            color: 'orange',
+            textAlign: 'center',
+            marginTop: '10vh',
+            marginBottom: '5vh',
+          }}
+        >
+          See all recipes &rarr;
+        </h3>
       </div>
 
-
-      </div>
+      <div style={{ backgroundColor: '#fdf2e9', height: '800px' }}></div>
     </div>
   );
 };
