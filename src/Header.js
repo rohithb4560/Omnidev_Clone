@@ -991,7 +991,17 @@ const Header = () => {
           src="https://omnifood.dev/img/gallery/gallery-12.jpg"
           alt=""
         />
+        
+
       </div>
+      <div
+        style={{ backgroundColor: 'white', height: '1000px', width: '100%' }}
+      >
+        <h3 style={{marginTop:"-90vh",paddingTop:'10vh',marginLeft:'10vw',color:'orange'}}>PRICING</h3>
+        <h1 style={{marginLeft:'10vw',fontWeight:'1000',fontSize:'50px',marginTop:'-3vh'}}>Eating well without breaking the bank</h1>
+          
+          </div>
+      
     </div>
   );
 };
