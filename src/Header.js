@@ -693,7 +693,305 @@ const Header = () => {
         </h3>
       </div>
 
-      <div style={{ backgroundColor: '#fdf2e9', height: '800px' }}></div>
+      <div
+        style={{
+          backgroundColor: '#fdf2e9',
+          height: '1800px',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        <h3 style={{ color: 'orange', marginLeft: '7vw', paddingTop: '15vh' }}>
+          TESTIMONIALS
+        </h3>
+        <h1
+          style={{
+            marginLeft: '7vw',
+            marginTop: '-3vh',
+            fontSize: '50px',
+            fontWeight: '1000',
+          }}
+        >
+          Once you try it, you can't go
+        </h1>
+        <h1
+          style={{
+            marginLeft: '7vw',
+            marginTop: '-3vh',
+            fontSize: '50px',
+            fontWeight: '1000',
+          }}
+        >
+          back.
+        </h1>
+
+        <img
+          style={{
+            width: '6vw',
+            height: '8vh',
+            borderRadius: '50%',
+            marginLeft: '7vw',
+            marginTop: '6vh',
+          }}
+          src="https://omnifood.dev/img/customers/dave.jpg"
+          alt=""
+        />
+        <h3
+          style={{
+            width: '20vw',
+            marginLeft: '7vw',
+            lineHeight: '2',
+            fontSize: '23px',
+            fontWeight: '120',
+          }}
+        >
+          Inexpensive, healthy and great-tasting meals, without even having to
+          order manually! It feels truly magical.
+        </h3>
+        <h4
+          style={{
+            width: '20vw',
+            marginLeft: '7vw',
+            marginTop: '-3vh',
+            lineHeight: '2',
+            fontSize: '18px',
+            fontWeight: '10',
+          }}
+        >
+          — Dave Bryson
+        </h4>
+
+        <img
+          style={{
+            width: '6vw',
+            height: '8vh',
+            borderRadius: '50%',
+            marginLeft: '7vw',
+            marginTop: '6vh',
+          }}
+          src="https://omnifood.dev/img/customers/steve.jpg"
+          alt=""
+        />
+        <h3
+          style={{
+            width: '20vw',
+            marginLeft: '7vw',
+            lineHeight: '2',
+            fontSize: '23px',
+            fontWeight: '120',
+          }}
+        >
+          Omnifood is a life saver! I just started a company, so there's no time
+          for cooking. I couldn't live without my daily meals now!
+        </h3>
+        <h4
+          style={{
+            width: '20vw',
+            marginLeft: '7vw',
+            marginTop: '-3vh',
+            lineHeight: '2',
+            fontSize: '18px',
+            fontWeight: '10',
+          }}
+        >
+          — Steve Miller
+        </h4>
+        <img
+          style={{
+            width: '6vw',
+            height: '8vh',
+            borderRadius: '50%',
+            marginLeft: '33vw',
+            marginTop: '-93vh',
+          }}
+          src="https://omnifood.dev/img/customers/ben.jpg"
+          alt=""
+        />
+
+        <h3
+          style={{
+            width: '20vw',
+            lineHeight: '2',
+            fontSize: '23px',
+            fontWeight: '120',
+            marginLeft: '33vw',
+          }}
+        >
+          The AI algorithm is crazy good, it chooses the right meals for me
+          every time. It's amazing not to worry about food anymore!
+        </h3>
+        <h4
+          style={{
+            width: '20vw',
+            lineHeight: '2',
+            fontSize: '23px',
+            fontWeight: '120',
+            marginLeft: '33vw',
+            marginTop: '-2vh',
+          }}
+        >
+          — Ben Hadley
+        </h4>
+
+        <img
+          style={{
+            width: '6vw',
+            height: '8vh',
+            borderRadius: '50%',
+            marginLeft: '33vw',
+            marginTop: '3vh',
+          }}
+          src="https://omnifood.dev/img/customers/hannah.jpg"
+          alt=""
+        />
+        <h3
+          style={{
+            width: '20vw',
+            lineHeight: '2',
+            fontSize: '23px',
+            fontWeight: '120',
+            marginLeft: '33vw',
+          }}
+        >
+          I got Omnifood for the whole family, and it frees up so much time!
+          Plus, everything is organic and vegan and without plastic.
+        </h3>
+        <h4
+          style={{
+            width: '20vw',
+            marginTop: '-3vh',
+            lineHeight: '2',
+            fontSize: '18px',
+            fontWeight: '10',
+            marginLeft: '33vw',
+          }}
+        >
+          — Hannah Smith
+        </h4>
+
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '-133vh',
+            marginLeft: '59vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-1.jpg"
+          alt=""
+        />
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '-28vh',
+            marginLeft: '72vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-2.jpg"
+          alt=""
+        />
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '-28vh',
+            marginLeft: '85vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-3.jpg"
+          alt=""
+        />
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '3vh',
+            marginLeft: '59vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-4.jpg"
+          alt=""
+        />
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '-28vh',
+            marginLeft: '72vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-5.jpg"
+          alt=""
+        />
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '-28vh',
+            marginLeft: '85vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-6.jpg"
+          alt=""
+        />
+
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '3vh',
+            marginLeft: '59vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-7.jpg"
+          alt=""
+        />
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '-28vh',
+            marginLeft: '72vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-8.jpg"
+          alt=""
+        />
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '-28vh',
+            marginLeft: '85vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-9.jpg"
+          alt=""
+        />
+
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '3vh',
+            marginLeft: '59vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-10.jpg"
+          alt=""
+        />
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '-28vh',
+            marginLeft: '72vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-11.jpg"
+          alt=""
+        />
+        <img
+          style={{
+            height: '28vh',
+            width: '12vw',
+            marginTop: '-28vh',
+            marginLeft: '85vw',
+          }}
+          src="https://omnifood.dev/img/gallery/gallery-12.jpg"
+          alt=""
+        />
+      </div>
     </div>
   );
 };
