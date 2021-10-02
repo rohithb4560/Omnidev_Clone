@@ -1,6 +1,20 @@
 import React from 'react';
 import './style.css';
-import { FaFire, FaCheck, FaUtensilSpoon, FaStar } from 'react-icons/fa';
+import {
+  FaFire,
+  FaCheck,
+  FaTimes,
+  FaUtensilSpoon,
+  FaStar,
+  FaInfinity,
+  FaApple,
+  FaLeaf,
+  FaPause,
+  FaPlay,
+  FaInstagram,
+  FaTwitter,
+  FaFacebook,
+} from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -991,17 +1005,535 @@ const Header = () => {
           src="https://omnifood.dev/img/gallery/gallery-12.jpg"
           alt=""
         />
-        
-
       </div>
       <div
         style={{ backgroundColor: 'white', height: '1000px', width: '100%' }}
       >
-        <h3 style={{marginTop:"-90vh",paddingTop:'10vh',marginLeft:'10vw',color:'orange'}}>PRICING</h3>
-        <h1 style={{marginLeft:'10vw',fontWeight:'1000',fontSize:'50px',marginTop:'-3vh'}}>Eating well without breaking the bank</h1>
-          
+        <h3
+          style={{
+            marginTop: '-90vh',
+            paddingTop: '10vh',
+            marginLeft: '10vw',
+            color: 'orange',
+          }}
+        >
+          PRICING
+        </h3>
+        <h1
+          style={{
+            marginLeft: '10vw',
+            fontWeight: '1000',
+            fontSize: '50px',
+            marginTop: '-3vh',
+          }}
+        >
+          Eating well without breaking the bank
+        </h1>
+
+        <div
+          style={{
+            boxShadow: '0 0 1px 1px pink',
+            marginTop: '20vh',
+            marginLeft: '20vw',
+            height: '70vh',
+            width: '22vw',
+            display: 'flex',
+            borderRadius: '10px',
+          }}
+        >
+          <p
+            style={{
+              textAlign: 'center',
+              fontWeight: '1000',
+              fontSize: '20px',
+              marginTop: '8vh',
+              marginLeft: '8vw',
+              color: '#cf711f',
+            }}
+          >
+            STARTER
+          </p>
+          <div
+            style={{ display: 'flex', marginTop: '13vh', marginLeft: '-7vw' }}
+          >
+            <h1>$ </h1>
+            <h1
+              style={{
+                fontSize: '60px',
+                marginTop: '-0.3vh',
+                marginLeft: '1vw',
+              }}
+            >
+              399
+            </h1>
           </div>
-      
+          <p
+            style={{
+              fontSize: '14px',
+              marginTop: '24vh',
+              width: '18vw',
+              marginLeft: '-12vw',
+            }}
+          >
+            per month. That's just $13 per meal!
+          </p>
+          <div>
+            <h2
+              style={{
+                color: 'orange',
+                marginTop: '33vh',
+                marginLeft: '-18vw',
+              }}
+            >
+              <FaCheck />
+            </h2>
+            <p
+              style={{
+                marginTop: '-6.6vh',
+                marginLeft: '-15vw',
+                fontSize: '100',
+                fontSize: '18px',
+              }}
+            >
+              1 meal per day
+            </p>
+          </div>
+          <div>
+            <h2
+              style={{
+                color: 'orange',
+                marginTop: '39vh',
+                marginLeft: '-18vw',
+              }}
+            >
+              <FaCheck />
+            </h2>
+            <p
+              style={{
+                marginTop: '-6.6vh',
+                marginLeft: '-15vw',
+                fontSize: '100',
+                fontSize: '18px',
+              }}
+            >
+              Order from 11am to 9pm
+            </p>
+          </div>
+          <div>
+            <h2
+              style={{
+                color: 'orange',
+                marginTop: '45vh',
+                marginLeft: '-18vw',
+              }}
+            >
+              <FaCheck />
+            </h2>
+            <p
+              style={{
+                marginTop: '-6.6vh',
+                marginLeft: '-15vw',
+                fontSize: '100',
+                fontSize: '18px',
+              }}
+            >
+              Delivery is free
+            </p>
+          </div>
+          <div>
+            <h2
+              style={{
+                color: 'orange',
+                marginTop: '51vh',
+                marginLeft: '-18vw',
+              }}
+            >
+              <FaTimes />
+            </h2>
+          </div>
+          <button
+            style={{
+              backgroundColor: 'orange',
+              marginTop: '60vh',
+              marginLeft: '-16vw',
+              height: '6vh',
+              borderRadius: '10px',
+              color: 'white',
+              fontSize: '24px',
+            }}
+          >
+            Start eating well
+          </button>
+        </div>
+      </div>
+      <div
+        style={{
+          boxShadow: '0 0 1px 1px pink',
+          marginTop: '-92vh',
+          marginLeft: '50vw',
+          height: '70vh',
+          width: '22vw',
+          backgroundColor: '#fdf2e9',
+          borderRadius: '10px',
+        }}
+      >
+        <h3
+          style={{
+            color: '#cf711f',
+            fontSize: '20px',
+            marginTop: '-4vh',
+            marginLeft: '6vw',
+            paddingTop: '8vh',
+          }}
+        >
+          COMPLETE
+        </h3>
+
+        <div style={{ display: 'flex', marginTop: '2vh', marginLeft: '5vw' }}>
+          <h1>$ </h1>
+          <h1
+            style={{
+              fontSize: '60px',
+              marginTop: '-0.3vh',
+              marginLeft: '1vw',
+            }}
+          >
+            649
+          </h1>
+        </div>
+        <p
+          style={{
+            fontSize: '14px',
+            marginTop: '-4.7vh',
+            width: '18vw',
+            marginLeft: '4vw',
+          }}
+        >
+          per month. That's just $11 per meal!
+        </p>
+        <div>
+          <h2
+            style={{
+              color: 'orange',
+              marginTop: '6vh',
+              marginLeft: '4vw',
+            }}
+          >
+            <FaCheck />
+          </h2>
+          <p
+            style={{
+              marginTop: '-6.6vh',
+              marginLeft: '7vw',
+              fontSize: '100',
+              fontSize: '18px',
+            }}
+          >
+            2 meals per day
+          </p>
+        </div>
+        <div>
+          <h2
+            style={{
+              color: 'orange',
+              marginTop: '2vh',
+              marginLeft: '4vw',
+            }}
+          >
+            <FaCheck />
+          </h2>
+          <p
+            style={{
+              marginTop: '-6.6vh',
+              marginLeft: '7vw',
+              fontSize: '100',
+              fontSize: '18px',
+            }}
+          >
+            Order 24/7
+          </p>
+        </div>
+        <div>
+          <h2
+            style={{
+              color: 'orange',
+              marginTop: '2vh',
+              marginLeft: '4vw',
+            }}
+          >
+            <FaCheck />
+          </h2>
+          <p
+            style={{
+              marginTop: '-6.6vh',
+              marginLeft: '7vw',
+              fontSize: '100',
+              fontSize: '18px',
+            }}
+          >
+            Delivery is free
+          </p>
+        </div>
+        <div>
+          <h2
+            style={{
+              color: 'orange',
+              marginTop: '2vh',
+              marginLeft: '4vw',
+            }}
+          >
+            <FaCheck />
+          </h2>
+          <p
+            style={{
+              marginTop: '-6.6vh',
+              marginLeft: '7vw',
+              fontSize: '100',
+              fontSize: '18px',
+            }}
+          >
+            Get access to latest recipes
+          </p>
+        </div>
+        <button
+          style={{
+            backgroundColor: 'orange',
+            marginTop: '7vh',
+            marginLeft: '6vw',
+            height: '6vh',
+            borderRadius: '10px',
+            color: 'white',
+            fontSize: '24px',
+          }}
+        >
+          Start eating well
+        </button>
+      </div>
+      <p style={{ marginTop: '9vh', marginLeft: '25vw' }}>
+        Prices include all applicable taxes. You can cancel at any time. Both
+        plans include the following:
+      </p>
+
+      <div style={{ display: 'flex' }}>
+        <div style={{ marginLeft: '8vw' }}>
+          <h1 style={{ color: 'orange', marginTop: '10vh' }}>
+            <FaInfinity />
+          </h1>
+          <h1 style={{ fontSize: '25px' }}>Never cook again!</h1>
+          <p style={{ width: '15vw', fontWeight: '400', lineHeight: '1.7' }}>
+            Our subscriptions cover 365 days per year, even including major
+            holidays.
+          </p>
+        </div>
+
+        <div style={{ marginLeft: '8vw' }}>
+          <h1 style={{ color: 'orange', marginTop: '10vh' }}>
+            <FaApple />
+          </h1>
+          <h1 style={{ fontSize: '25px' }}>Local and organic</h1>
+          <p style={{ width: '15vw', fontWeight: '400', lineHeight: '1.7' }}>
+            Our subscriptions cover 365 days per year, even including major
+            holidays.
+          </p>
+        </div>
+        <div style={{ marginLeft: '8vw' }}>
+          <h1 style={{ color: 'orange', marginTop: '10vh' }}>
+            <FaLeaf />
+          </h1>
+          <h1 style={{ fontSize: '25px' }}>No waste</h1>
+          <p style={{ width: '15vw', fontWeight: '400', lineHeight: '1.7' }}>
+            Our subscriptions cover 365 days per year, even including major
+            holidays.
+          </p>
+        </div>
+        <div style={{ marginLeft: '8vw' }}>
+          <h1 style={{ color: 'orange', marginTop: '10vh' }}>
+            <FaPause />
+          </h1>
+          <h1 style={{ fontSize: '25px' }}>Pause anytime</h1>
+          <p style={{ width: '15vw', fontWeight: '400', lineHeight: '1.7' }}>
+            Going on vacation? Just pause your subscription, and we refund
+            unused days.
+          </p>
+        </div>
+      </div>
+      <div
+        style={{
+          boxShadow: '0 0 1px 1px pink',
+          height: '60vh',
+          width: '70vw',
+          marginTop: '20vh',
+          marginLeft: '14vw',
+          backgroundColor: '#e67e22',
+          borderRadius: '10px',
+        }}
+      >
+        <div>
+          <img
+            style={{ height: '60vh', width: '25vw', marginLeft: '45vw' }}
+            src="https://omnifood.dev/img/eating.jpg"
+            alt=""
+          />
+        </div>
+        <div style={{ marginLeft: '3vw', marginTop: '-58vh' }}>
+          <h1
+            style={{
+              marginTop: '3vh',
+              fontSize: '45px',
+              fontWeight: '1000',
+              color: '#45260a',
+            }}
+          >
+            Get your first meal for free!
+          </h1>
+          <p
+            style={{
+              width: '40vw',
+              fontSize: '20px',
+              lineHeight: '1.8',
+              fontWeight: '500',
+            }}
+          >
+            Healthy, tasty and hassle-free meals are waiting for you. Start
+            eating well today. You can cancel or pause anytime. And the first
+            meal is on us!
+          </p>
+        </div>
+        <div style={{ marginLeft: '3vw', marginTop: '3vh' }}>
+          <h3>Full Name</h3>
+          <input
+            style={{
+              width: '17vw',
+              height: '5vh',
+              borderRadius: '10px',
+              marginTop: '-6vh',
+              fontSize: '18px',
+            }}
+            type="text"
+            placeholder="John Smith"
+          />
+          <div>
+            <h3>Where did you hear from us?</h3>
+            <select
+              style={{
+                width: '17vw',
+                height: '5vh',
+                borderRadius: '10px',
+                marginTop: '-6vh',
+                fontSize: '16px',
+                paddingTop: '2vh',
+                paddingBottom: '-2vh',
+              }}
+              name=""
+              id=""
+            >
+              <option value="">Please choose one option</option>
+              <option value="">Friends and family</option>
+              <option value="">Youtube video</option>
+              <option value="">Podcast</option>
+              <option value="">Facebook and</option>
+              <option value="">Others</option>
+            </select>
+            <div style={{ marginLeft: '21vw', marginTop: '-22.2vh' }}>
+              <h3>Email address</h3>
+              <input
+                style={{
+                  width: '17vw',
+                  height: '5vh',
+                  borderRadius: '10px',
+                  marginTop: '-6vh',
+                  fontSize: '18px',
+                }}
+                type="text"
+                placeholder="Me@example.com"
+              />
+            </div>
+            <button
+              style={{
+                backgroundColor: '#45260a',
+                color: 'white',
+                fontWeight: '1000',
+                fontSize: '20px',
+                width: '20vw',
+                borderRadius: '10px',
+                marginTop: '5.5vh',
+                marginLeft: '20vw',
+                paddingTop: '10px',
+                border: '1px silver',
+              }}
+            >
+              Sign up now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        style={{
+          marginTop: '25vh',
+          marginLeft: '11vw',
+          display: 'flex',
+          flexDirection: 'row',
+        }}
+      >
+        <div>
+          <img
+            style={{ height: '3vh' }}
+            src="https://omnifood.dev/img/omnifood-logo.png"
+            alt=""
+          />
+          <div style={{ display: 'flex' }}>
+            <h3>
+              <FaInstagram />
+            </h3>
+            <h3 style={{ marginLeft: '2vw' }}>
+              <FaFacebook />
+            </h3>
+            <h3 style={{ marginLeft: '2vw' }}>
+              <FaTwitter />
+            </h3>
+            <p
+              style={{
+                marginTop: '15vh',
+                width: '18vw',
+                marginLeft: '-8vw',
+                fontSize: '14px',
+              }}
+            >
+              Copyright © 2021 by Omnifood, Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+
+        <div style={{ marginLeft: '8vw' }}>
+          <h2 style={{ marginTop: '-0.5vh' }}>Contact us</h2>
+
+          <p style={{ width: '13vw', marginTop: '7vh' }}>
+            623 Harrison St., 2nd Floor, San Francisco, CA 94107
+          </p>
+          <p style={{ marginTop: '4vh' }}>415-201-6370</p>
+          <p style={{ marginTop: '-2vh' }}>hello@omnifood.com</p>
+        </div>
+        <div style={{ marginLeft: '4vw' }}>
+          <h2 style={{ marginTop: '-0.5vh' }}>Account</h2>
+          <p style={{ marginTop: '7vh' }}>Create Account</p>
+          <p style={{ marginTop: '2vh' }}>Sign in</p>
+          <p style={{ marginTop: '2vh' }}>IOS app</p>
+          <p style={{ marginTop: '2vh' }}>Android app</p>
+        </div>
+        <div style={{ marginLeft: '4vw' }}>
+          <h2 style={{ marginTop: '-0.5vh' }}>Company</h2>
+          <p style={{ marginTop: '7vh' }}>About Omnifood</p>
+          <p style={{ marginTop: '2vh' }}>For Business</p>
+          <p style={{ marginTop: '2vh' }}>Cooking Partners</p>
+          <p style={{ marginTop: '2vh' }}>Careers</p>
+        </div>
+        <div style={{ marginLeft: '4vw' }}>
+          <h2 style={{ marginTop: '-0.5vh' }}>Resources</h2>
+          <p style={{ marginTop: '7vh' }}>Recipe directory</p>
+          <p style={{ marginTop: '2vh' }}>Help center</p>
+          <p style={{ marginTop: '2vh' }}>Privacy & Terms</p>
+        </div>
+      </div>
     </div>
   );
 };
